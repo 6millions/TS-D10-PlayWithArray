@@ -37,7 +37,7 @@ function executeArrayLogic(): string {
 
     for (let i = 0; i < person.numberOfLottos; i++) {
 
-        person.lottos[i] = Math.floor(Math.random() * 100) + 1;
+        person.lottos[i] = Math.floor(Math.random() * 99) + 1;
     }
 
     let firstMessage = "This person owns numbers: " + person.lottos;
